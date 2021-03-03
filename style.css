@@ -40,10 +40,12 @@
 
 .navbar .logo a span{
     color: crimson;
+    transition: all 0.3s ease;
 }
-/* .navbar .sticky .logo{
-
-} */
+.navbar.sticky .logo a span{
+    color: #111;
+    
+}
 
 .navbar .menu li{
     list-style: none;
@@ -60,6 +62,10 @@
 
 .navbar .menu li a:hover{
     color: crimson;
+}
+
+.navbar.sticky .menu li a:hover{
+    color: #111;
 }
 /* home styling */
 
