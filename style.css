@@ -38,6 +38,17 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+}
 
+/* home styling */
+
+.home{
+    display: flex;
+    background: url("images/brainprogram.jpeg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
 
 }
