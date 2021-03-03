@@ -7,4 +7,6 @@ $(document).ready(function () {
             $('.navbar').removeClass('sticky')
         }
     })
+    //toggle menu/navbar script
+    $
 })
