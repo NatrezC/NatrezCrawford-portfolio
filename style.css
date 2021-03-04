@@ -274,25 +274,25 @@ section{
     }
 
     .home .home-content a{
-        font-size: 23px;   
+        font-size: 23px;  
+        padding: 10px 30px;
     }
 
-    .home .max-width{
-        margin-left: 0px;
+    .max-width{
+        max-width: 800px;
     }
 
+    /* .about .about-content{
+        display: flex;
+        flex-direction: column;
+    } */
     .about .about-content .left img{
         height: 350px;
         width: 350px;
         
     }
-
-    /* about styling smaller screens */
-    /* .max-width{
-    max-width: 800px;
-    } */
     .about .about-content .column{
-        width: 50%;
+        width: 100%;
     }
 
     .about .about-content .left{
