@@ -298,11 +298,32 @@ section .title::after{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
+    text-align: center;
+    transition: all 0.3s ease;
 }
 
+.projects .carousel .card:hover{
+    background: crimson;
+    cursor: pointer;
+
+}
 .projects .carousel .card .box{
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+}
+
+.projects .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+
+.projects .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+
 }
 .projects .carousel .card img{
     height: 150px;
@@ -310,10 +331,18 @@ section .title::after{
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid crimson;
+    transition: all .3s ease;
 
 }
 
+.projects .carousel .card:hover img{
+    border-color: #222;
+}
 
+.owl-dots{
+    text-align: center;
+    margin-top: 20px
+}
 /* media query  */
 
 @media (max-width: 947px){
