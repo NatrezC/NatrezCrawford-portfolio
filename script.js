@@ -21,6 +21,13 @@ $(document).ready(function () {
         loop: true
     })
 
+    var typed = new Typed(".typing2", {
+        strings: ["Software Engineer", "Leader", "Backend Developer", "Frontend Developer"],
+        typeSpeed: 100,
+        hackSpeed: 60,
+        loop: true
+    })
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
