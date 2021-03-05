@@ -416,6 +416,39 @@ section .title::after{
     color: #333;
 }
 
+.contact .right form .fields{
+    display: flex;
+
+}
+.contact .right form .fields,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+
+.contact .right form .email{
+    margin-left: 10px;
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 /* media query  */
 
 @media (max-width: 947px){
