@@ -8,8 +8,12 @@
     <!-- Font awesome Pro v5.10.0 CDN -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <!-- JQuery -->
+    <!-- jQuery -->
     <script src = "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- jQuery typed animation script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+        integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+        crossorigin="anonymous"></script>
     <!-- Waypoint -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
         integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
@@ -29,9 +33,10 @@
         <div class="max-width">
             <div class="logo"><a href="#">Portfol<span>io</span></a></div>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="#">Resume</a></li>
             </ul>
             <div class="menu-btn">
@@ -45,7 +50,7 @@
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Natrez Crawford</div>
-                <div class="text-3">And I am a <span>Software Engineer</span></div>
+                <div class="text-3">And I am a <span class="typing"></span></div>
                 <a href="#">Hire me!</a>
             </div>
         </div>
@@ -157,6 +162,11 @@
             </div>
         </div>
     </section>
+
+    <!-- footer section -->
+    <footer>
+        <span>Created By <a href="https://github.com/NatrezC">Natrez Crawford</a> | <span class="far fa-copyright">2021 All rights reserved.</span></span>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

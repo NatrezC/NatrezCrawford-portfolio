@@ -13,6 +13,14 @@ $(document).ready(function () {
         $('.menu-btn i').toggleClass('active');
     })
 
+    // typed animation script
+    var typed = new Typed(".typing", {
+        strings: ["Software Engineer", "Leader", "Backend Developer", "Frontend Developer"],
+        typeSpeed: 100,
+        hackSpeed: 60,
+        loop: true
+    })
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
