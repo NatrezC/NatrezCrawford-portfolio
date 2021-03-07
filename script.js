@@ -15,14 +15,14 @@ $(document).ready(function () {
 
     // typed animation script
     var typed = new Typed(".typing", {
-        strings: ["Software Engineer", "Leader", "", ""],
+        strings: ["Software Engineer", "Leader", "Team Player", "Competitor"],
         typeSpeed: 100,
         hackSpeed: 60,
         loop: true
     })
 
     var typed = new Typed(".typing2", {
-        strings: ["Software Engineer", "Leader", "Backend Developer", "Frontend Developer"],
+        strings: ["Software Engineer", "Leader", "Team Player", "Competitor"],
         typeSpeed: 100,
         hackSpeed: 60,
         loop: true
