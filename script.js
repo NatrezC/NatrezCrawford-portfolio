@@ -28,6 +28,13 @@ $(document).ready(function () {
         loop: true
     })
 
+    var typed = new Typed(".typing3", {
+        strings: ["Connect With Me", "Talk to Me", "Click Links Below"],
+        typeSpeed: 100,
+        hackSpeed: 60,
+        loop: true
+    })
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
