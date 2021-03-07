@@ -345,6 +345,31 @@ section .title::after{
     border-color: #222;
 }
 
+
+
+.projects .carousel .card a{
+    font-size: 35px;
+    color: #fff;
+}
+
+.projects .carousel .card .website{
+    display: inline-block;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #111;
+    transition: all .4s ease;
+}
+
+.projects .carousel .card .website:hover{
+    color: #fff;
+    background: none;
+    border: 2px solid #111;
+}
+
 .owl-dots{
     text-align: center;
     margin-top: 20px
